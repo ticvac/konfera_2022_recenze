@@ -1,0 +1,10 @@
+Určování sentimentu filmových recenzí
+
+Cílem naší konfery bylo vymyslet a naprogramovat model,
+který dostane na vstup anglickou recenzi filmu a rozhodne, 
+jestli je pozitivní, nebo negativní. Text jsme rozdělili na slova, odstranili 
+interpunkci a části nenesoucí význam. Následně jsme 
+pomocí trénovacích dat každému slovu přiřadili pravděpodobnost 
+výskytu v pozitivní recenzi. Průměrem těchto hodnot jsme určovali 
+sentiment textu. Model jsme spustili na testovacích datech, 
+kde dosáhl úspěšnosti 83%.
